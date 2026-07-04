@@ -91,7 +91,6 @@ każdą funkcję można analizować i modyfikować w izolacji.
 | `backup.sh`       | Główny skrypt wykonywalny. Zawiera całą logikę.                      |
 | `backup.conf`     | Konfiguracja: źródła, cel, retencja, ścieżki logu i lockfile.       |
 | `README.md`       | Krótka instrukcja użytkownika (instalacja, cron).                    |
-| `DOKUMENTACJA.md` | Ten dokument — pełny opis techniczny.                                |
 
 Rozdzielenie **kodu** (`backup.sh`) od **konfiguracji** (`backup.conf`) to
 klasyczny dobry wzorzec w UNIX: ten sam skrypt może obsłużyć wiele różnych
