@@ -137,7 +137,7 @@ LOCK_FILE="/tmp/backup.lock"
 > komentarzy. Ceną jest to, że konfiguracja może wykonać dowolny kod, dlatego
 > należy chronić go uprawnieniami `600` (patrz [Bezpieczeństwo](#10-bezpieczeństwo)).
 
-> ⚠️ **Uwaga do szablonu w repo.** W dostarczonym `backup.conf` pola `DEST_DIR`
+> **Uwaga do szablonu w repo.** W dostarczonym `backup.conf` pola `DEST_DIR`
 > i `LOG_FILE` zapisano jako *tablice* `DEST_DIR=( ... )` z zakomentowaną
 > zawartością. Skrypt traktuje je jak **łańcuchy** (odczyt `${DEST_DIR}` bierze
 > element 0 tablicy). Aby uniknąć nieporozumień, przy uzupełnianiu konfiguracji
